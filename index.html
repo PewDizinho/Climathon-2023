@@ -66,56 +66,6 @@
 
     <input type="hidden" id="pp_footer_style" name="pp_footer_style" value="4" />
 
-    <!-- Begin mobile menu -->
-    <div class="mobile_menu_wrapper">
-        <a id="close_mobile_menu" href="javascript:;"><i class="fa fa-close"></i></a>
-
-        <div class="menu-side-menu-container">
-            <ul id="mobile_main_menu" class="mobile_main_nav">
-                <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
-                <li class="menu-item"><a href="our-menus.html">Menus</a></li>
-                <li class="menu-item"><a href="venue-functions.html">Functions</a></li>
-                <li class="menu-item"><a href="more-about-us.html">About</a></li>
-                <li class="menu-item"><a href="get-contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <!-- Begin Reservation -->
-        <a href="javascript:;" id="tg_sidemenu_reservation" class="button ">Reservation</a>
-        <!-- End Reservation -->
-
-        <!-- Begin side menu sidebar -->
-        <div class="page_content_wrapper">
-            <div class="sidebar_wrapper">
-                <div class="sidebar">
-
-                    <div class="content">
-
-                        <ul class="sidebar_widget">
-                            <li id="text-6" class="widget widget_text">
-                                <div class="textwidget">
-                                    <p>732/21 Second Street, Manchester, King Street, Kingston United Kingdom</p>
-                                    <p>685-456-6743
-                                        <br />
-                                        <a href="#">Make a Reservation</a>
-                                    </p>
-                                    <p class="p1">
-                                        <span class="s1">Mon &#8211; Fri 11:30am &#8211; 8pm<br /></span>
-                                        <span class="s1">Sat &#8211; Sun 11:30am &#8211; 9pm</span>
-                                    </p>
-                                    <p><img class="alignnone size-full wp-image-77" src="upload/signature.png" alt=""
-                                            width="309" height="43" /></p>
-                                </div>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- End side menu sidebar -->
-    </div>
-    <!-- End mobile menu -->
 
     <!-- Begin template wrapper -->
     <div id="wrapper" class="hasbg">
@@ -144,128 +94,11 @@
                             </a>
                         </div>
                     </div>
-                    <!-- End logo -->
 
-                    <!-- Begin side menu button -->
-                    <div class="menu_buttons_container">
-                        <div class="menu_buttons_content">
-
-
-                            <!-- Begin side menu -->
-                            <a href="javascript:;" id="mobile_nav_icon"></a>
-                            <!-- End side menu -->
-
-                        </div>
-                    </div>
-                    <!-- End side menu button -->
-
-                    <!-- Begin main nav -->
-                    <div id="nav_wrapper">
-                        <div class="nav_wrapper_inner">
-                            <div id="menu_border_wrapper">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End main nav -->
 
                 </div>
             </div>
         </div>
-
-        <div id="reservation_wrapper">
-            <div class="reservation_content">
-                <div class="reservation_form">
-                    <div class="reservation_form_wrapper">
-                        <a id="reservation_cancel_btn" href="javascript:;"><i class="fa fa-close"></i></a>
-
-                        <h2 class="ppb_title"><span class="ppb_title_first">Table</span>Booking</h2>
-                        <div id="reponse_msg">
-                            <ul></ul>
-                        </div>
-
-                        <form id="tg_reservation_form" method="post">
-                            <input type="hidden" id="action" name="action" value="tg_reservation_mailer" />
-
-                            <div class="one_third">
-                                <label for="your_name">Name*</label>
-                                <input id="your_name" name="your_name" type="text" class="required_field" />
-                            </div>
-
-                            <div class="one_third">
-                                <label for="email">Email*</label>
-                                <input id="email" name="email" type="text" class="required_field" />
-                            </div>
-
-                            <div class="one_third last">
-                                <label for="phone">Phone*</label>
-                                <input id="phone" name="phone" type="text" class="required_field" />
-                            </div>
-
-                            <br class="clear" />
-                            <br />
-
-                            <div class="one_third">
-                                <label for="date" class="hidden">Date*</label>
-                                <input type="text" class="pp_date required_field" id="date" name="date"
-                                    value="10/08/2019">
-                            </div>
-
-                            <div class="one_third">
-                                <label for="time">Time*</label>
-                                <input type="text" class="pp_time required_field" id="time" name="time" value="18:00" />
-                            </div>
-
-                            <div class="one_third last">
-                                <label for="seats">Seats*</label>
-                                <select id="seats" name="seats" class="required_field" style="width:99%">
-                                    <option value="1">1 person</option>
-                                    <option value="2">2 people</option>
-                                    <option value="3">3 people</option>
-                                    <option value="4">4 people</option>
-                                    <option value="5">5 people</option>
-                                    <option value="6">6 people</option>
-                                    <option value="7">7 people</option>
-                                    <option value="8">8 people</option>
-                                    <option value="9">9 people</option>
-                                    <option value="10">10 people</option>
-                                    <option value="11">11 people</option>
-                                    <option value="12">12 people</option>
-                                    <option value="13">13 people</option>
-                                    <option value="14">14 people</option>
-                                    <option value="15">15 people</option>
-                                    <option value="16">16 people</option>
-                                    <option value="17">17 people</option>
-                                    <option value="18">18 people</option>
-                                    <option value="19">19 people</option>
-                                    <option value="20">20+ people</option>
-                                </select>
-                            </div>
-
-                            <br class="clear" />
-                            <br />
-
-                            <div class="one">
-                                <label for="message">Special Requests</label>
-                                <textarea id="message" name="message" rows="7" cols="10"></textarea>
-                            </div>
-
-                            <br class="clear" />
-                            <br />
-
-                            <div class="one">
-                                <p>
-                                    <input id="reservation_submit_btn" type="submit" value="Book Now" />
-                                </p>
-                            </div>
-
-                            <br class="clear" />
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="parallax_overlay_header"></div>
-        </div>
-
 
 
         <div class="ppb_wrapper  ">
@@ -312,6 +145,31 @@
 
                 <!-- END REVOLUTION SLIDER -->
             </div>
+
+
+            <div class="one withsmallpadding ppb_text" style="padding:20px 0 20px 0;">
+
+                <div style="background-color:white; display:flex; justify-content: space-around;  padding: 20px;">
+
+                    <div>
+                        <h2 style="color: black;">Experiências e consciência ambiental</h2>
+                        <p style="color: black;">Junte-se a nós para criar um futuro sustentável. <br>Explore a natureza
+                            e
+                            pratique a
+                            conscientização ambiental.<br> Cada ação conta</p>
+                        <button
+                            style="background-color: orange;border: none;margin-top: 15px; padding: 20px; color: white; font-weight: 800; cursor: pointer;">
+                            Baixe
+                            o
+                            Aplicativo</button>
+
+                    </div>
+                    <div>
+                        <img src="images/aoba.png" style='width:200px;' alt="MOBILE">
+                    </div>
+                </div>
+            </div>
+
             <div class="one withsmallpadding ppb_header "
                 style="padding-bottom:0 !important;text-align:center;padding:60px 0 60px 0;">
                 <div class="standard_wrapper">
@@ -326,6 +184,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="one withsmallpadding ppb_text" style="padding:20px 0 20px 0;">
                 <div class="standard_wrapper">
                     <div class="page_content_wrapper">
